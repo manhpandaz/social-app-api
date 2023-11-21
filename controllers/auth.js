@@ -53,6 +53,8 @@ export const login = (req, res) => {
       "secretkey"
     );
 
+    console.log("login token:", token);
+
     const { password, ...others } = data[0];
 
     res
