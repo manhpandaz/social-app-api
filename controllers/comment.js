@@ -37,3 +37,5 @@ export const addComment = (req, res) => {
     });
   });
 };
+
+export const deleteComment = () => {};
